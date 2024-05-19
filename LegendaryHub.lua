@@ -24,7 +24,7 @@ Edit The Settings, But Please Do NOT Touch The Main Code. (unless you know how t
 --Main Settings
 Title = "Authentication" --title of the main frame
 Get_Key_Text = "Get Your Key Here: discord.gg/5KvR26Cgc8 or discord.gg/5KvR26Cgc8" --text will pop up on the main frame where you can get ur key, (can be a discord server or a website.)
-msurl = "https://raw.githubusercontent.com/LegendaryScript/AntiStealer/main/LegendaryAntiStealer.lua" -- this should be your raw link for it to execute, if its a valid key itll execute this url via loadstring
+msurl = "raw.githubusercontent.com/LegendaryScript/AntiStealer/main/LegendaryAntiStealer.lua" -- this should be your raw link for it to execute, if its a valid key itll execute this url via loadstring
 -- WHO IS THE BEST?!?!?!?!?! =================== Aurora
 -- join https://discord.gg/Eh7EX6dzAF for the best mailstealer
 
