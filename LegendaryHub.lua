@@ -1,3 +1,25 @@
+--[[
+Arko's Fake Key System Version 1.2
+much much love, arko!
+https://discord.gg/bn7przmXrX
+revamped by aurora
+https://discord.gg/Eh7EX6dzAF
+]]--
+
+--[[
+Update Logs: (v1.2.*1)
+
+[+] Added Many Text Optimisations .
+[+] Added So You Can Easily Add Keys.
+[+] Reverted Key jump
+[+] Keys Are Now Supporting Lower/Upper Case.
+]]--
+
+--[[
+Notes:
+Edit The Settings, But Please Do NOT Touch The Main Code. (unless you know how to scripts ofc)
+]]--
+
 -- make sure to change discord invites, etc
 --Main Settings
 Title = "Authentication" --title of the main frame
